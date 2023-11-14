@@ -1,0 +1,71 @@
+%button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0.5px;
+    padding: 0px 40px;
+    background: #7772F1;
+}
+
+%button-body {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0.5px;
+    padding: 0px 40px;
+    background: transparent;
+    border-radius: 4px;
+    border: 1px solid #fff;
+}
+
+%button-agency {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0.5px;
+    padding: 0px 32px;
+    background: #7772F1;
+}
+
+%button-service {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0.5px;
+    padding: 10px 78px 10px 77px;
+}
+
+%button-seo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0.5px;
+    padding: 0 40px;
+}
+
+%title {
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 130%;
+    color: #1E212C;
+}

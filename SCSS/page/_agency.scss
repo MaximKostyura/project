@@ -1,0 +1,78 @@
+.agency__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 180px;
+}
+
+.agency__content {
+    max-width: 390px;
+    position: relative;
+}
+
+.agency__content::before {
+    position: absolute;
+    display: block;
+    content: url('/images/agensy/agensy-bg.svg');
+    z-index: -1;
+    top: -55%;
+    left: -35%;
+}
+
+.agency__title {
+    @extend %title;
+    margin-bottom: 40px;
+}
+
+.agency__text {
+    color: #787A80;
+    line-height: 1.6;
+    margin-bottom: 48px;
+}
+
+.agency__button {
+    max-width: 161px;
+    @extend %button-agency;
+    transition: all .5s;
+}
+
+
+.agency__button:active {
+    background: #504AED;
+}
+
+.agency__button:hover {
+    background: #504AED;
+}
+
+
+.agency__image img {
+    width: 100%;
+    object-position: 50% 50%;
+    object-fit: cover;
+}
+
+.eclipse {
+    padding-bottom: 180px;
+}
+
+.eclipse__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+}
+
+.eclipse__item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.eclipse__text {
+    font-weight: 900;
+}
+
+.eclipse__paragrah {
+    margin-top: 20px;
+}

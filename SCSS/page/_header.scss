@@ -1,0 +1,171 @@
+.header {
+    background: radial-gradient(175.37% 96.44% at 10% 13.52%, #1E212C 0%, #232441 56.38%, #1E212C 100%);
+}
+
+.header__top {
+    padding-top: 20px;
+}
+
+.header__top-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.header__top-logo {
+    margin-right: 60px;
+}
+
+.header__top-logo img {
+    max-width: 130px;
+}
+
+.header__nav {
+    margin-right: auto;
+}
+
+.header__nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__nav-link {
+    margin-right: 40px;
+    color: $global-color;
+    opacity: 0.4;
+}
+
+.button {
+    @extend %button;
+}
+
+.header__body {
+    position: relative;
+}
+
+.header__body-inner {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header__image {
+    margin: -21% 0% 0% 69%;
+}
+
+.header__image img {
+    height: 100%;
+    object-position: 100% 50%;
+    object-fit: cover;
+}
+
+.header__title {
+    color: $global-color;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 130%;
+    letter-spacing: 1px;
+    max-width: 810px;
+    margin-bottom: 60px;
+}
+
+.header__title span {
+    color: #7772F1;
+}
+
+.header__btn-box {
+    display: flex;
+    align-items: center;
+}
+
+.header__button {
+    @extend %button-body;
+    margin-right: 40px;
+}
+
+
+.header__play-btn {
+    display: flex;
+    align-items: center;
+    color: $global-color;
+}
+
+
+.header__play-btn svg {
+    margin-right: 16px;
+    transition: all .3s;
+}
+
+.header__play-btn svg:hover {
+    box-shadow: 0px 0px 0px 13px rgb(120, 116, 241, .12);
+    border-radius: 100%;
+}
+
+.seo__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 0 80px;
+}
+
+.seo__item {
+    display: flex;
+    align-items: center;
+    color: $global-color;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.seo__item img {
+    margin-right: 20px;
+}
+
+.createx {
+    padding: 120px 0px 180px;
+}
+
+.createx__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.createx__text {
+    max-width: 630px;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 150%;
+    margin-right: 105px;
+}
+
+.createx__grid-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: start;
+}
+
+.createx__grid-item {
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.createx__grid-item img {
+    margin-right: 16px;
+}
+
+.createx__grid-text {
+    font-size: 14px;
+    max-width: 136px;
+    line-height: 1.5;
+}
+
+.createx__logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

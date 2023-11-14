@@ -1,0 +1,186 @@
+.service {
+    padding-bottom: 180px;
+}
+
+.service__inner {
+    position: relative;
+}
+
+.service__inner::before {
+    position: absolute;
+    display: block;
+    content: url('/images/service/bg-shape.svg');
+    top: 241.1px;
+    right: -76px;
+}
+
+.service__inner::after {
+    position: absolute;
+    display: block;
+    content: url('/images/service/followers.svg');
+    top: 241.1px;
+    right: -76px;
+}
+
+.service__title {
+    @extend %title;
+    text-align: center;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.service__title::after {
+    position: absolute;
+    display: block;
+    content: url('/images/service/like-2.svg');
+    top: 1120%;
+    left: 60%;
+}
+
+.service__list {
+    display: flex;
+}
+
+.service__link {
+    padding: 10px 78px 10px 77px;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 160%;
+    color: #9A9CA5;
+    transition: all .3s;
+}
+
+.service__link:hover {
+    padding: 10px 78px 10px 77px;
+    border-radius: 4px;
+    color: #7772F1;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 160%;
+    box-shadow: 3px 1px 8px 1px #7772F1;
+}
+
+.service__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 60px;
+    position: relative;
+}
+
+.service__content::after {
+    position: absolute;
+    display: inline-block;
+    content: url('/images/service/youtube.svg');
+    left: 100%;
+    top: 100%;
+    transform: translate(-50%);
+}
+
+.service__content::before {
+    position: absolute;
+    display: inline-block;
+    content: url('/images/service/likes.svg');
+    left: 49%;
+    top: 64%;
+    transform: translate(-50%);
+}
+
+.service__subtitle {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 150%;
+    color: #1E212C;
+    max-width: 390px;
+    margin-bottom: 24px;
+}
+
+.complete__list {
+    display: inline;
+}
+
+.complete__list-item {
+    position: relative;
+    margin: 0 0 12px 30px;
+    color: #424551;
+    line-height: 1.6;
+}
+
+.complete__list-item::after {
+    position: absolute;
+    display: inline-block;
+    content: url('/images/service/Mark.svg');
+    left: -20px;
+    top: 5%;
+    transform: translate(-50%);
+}
+
+.service__btn-box {
+    margin-top: 48px;
+}
+
+.service__btn--white {
+    padding: 0px 32px;
+    border: 1px solid #7772F1;
+    height: 44px;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    margin-right: 24px;
+    color: #7772F1;
+    font-weight: 700;
+    transition: all .4s;
+}
+
+.service__btn--white:hover {
+    padding: 0px 32px;
+    border: 1px solid #7772F1;
+    height: 44px;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    margin-right: 24px;
+    color: #fff;
+    font-weight: 700;
+    transition: all .4s;
+    background: #7772F1;
+}
+
+
+
+
+.service__btn {
+    padding: 0px 32px;
+    border: 1px solid #7772F1;
+    background: transparent;
+    display: inline-flex;
+    height: 44px;
+    align-items: center;
+    text-align: center;
+    background: #7772F1;
+    color: #fff;
+    font-weight: 700;
+    transition: all .4s;
+}
+
+.service__btn:active {
+    background: #504AED;
+}
+
+.service__btn:hover {
+    background: #504AED;
+}
+
+.service__image {
+    position: absolute;
+    right: 0;
+    top: 36%;
+    box-shadow: 0px 1px 20px 0px rgba(30, 33, 44, 0.02), 0px 0px 44px 0px rgba(30, 33, 44, 0.02), 0px 8px 50px 0px rgba(30, 33, 44, 0.04), 0px 6px 80px 0px rgba(30, 33, 44, 0.04);
+    border-radius: 4px;
+}
+
+.service__image img {
+    width: 100%;
+}
