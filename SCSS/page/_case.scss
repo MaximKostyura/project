@@ -1,0 +1,99 @@
+.case {
+    padding: 80px 0 85px;
+    background: #F4F5F6;
+}
+
+.container {}
+
+.case__title {
+    @extend %title;
+    margin-bottom: 60px;
+}
+
+.case__card-block {
+    display: flex;
+    width: 390px;
+    height: 390px;
+    background: #fff;
+    margin-right: 29px;
+}
+
+.case__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 31px;
+}
+
+.case__image {
+    margin-top: 24px;
+}
+
+.case__text {
+    color: #1E212C;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+.case__line {
+    width: 390px;
+    height: 1px;
+    background: linear-gradient(270deg, rgba(218, 219, 221, 0.00) 0%, rgba(218, 219, 221, 0.50) 12.33%, #DADBDD 51.91%, rgba(218, 219, 221, 0.50) 87.85%, rgba(218, 219, 221, 0.00) 100%);
+    margin-bottom: 20px;
+}
+
+.case__text-accent {
+    max-width: 310px;
+    color: #787A80;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.case__card-inner {
+    display: flex;
+}
+
+.case__card-block-2 {
+    width: 390px;
+    height: 390px;
+}
+
+.case__content-2 {
+    position: relative;
+}
+
+.case__image-2 {
+    background: #1E212C;
+    z-index: 1;
+}
+
+.case__image-2 img {
+    opacity: 0.5;
+}
+
+.case__content-2 {
+    position: relative;
+}
+
+.case__content-2::before {
+    position: absolute;
+    content: url('/images/case/National\ Health\ Logo\ 1.png');
+    top: 30px;
+    left: 30px;
+    mix-blend-mode: screen;
+    z-index: 2;
+}
+
+
+.case__line-2 {
+    position: absolute;
+    top: 128px;
+    display: flex;
+    align-items: center;
+    width: 390px;
+    height: 1px;
+    mix-blend-mode: screen;
+    background: linear-gradient(270deg, rgba(218, 219, 221, 0.00) 0%, rgba(218, 219, 221, 0.50) 12.33%, #DADBDD 51.91%, rgba(218, 219, 221, 0.50) 87.85%, rgba(218, 219, 221, 0.00) 100%);
+    opacity: 0.4;
+}
