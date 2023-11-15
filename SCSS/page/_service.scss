@@ -9,7 +9,7 @@
 .service__inner::before {
     position: absolute;
     display: block;
-    content: url('/images/service/bg-shape.svg');
+    content: url('./images/service/bg-shape.svg');
     top: 241.1px;
     right: -76px;
 }
@@ -17,7 +17,7 @@
 .service__inner::after {
     position: absolute;
     display: block;
-    content: url('/images/service/followers.svg');
+    content: url('./images/service/followers.svg');
     top: 241.1px;
     right: -76px;
 }
@@ -32,7 +32,7 @@
 .service__title::after {
     position: absolute;
     display: block;
-    content: url('/images/service/like-2.svg');
+    content: url('./images/service/like-2.svg');
     top: 1120%;
     left: 60%;
 }
@@ -73,7 +73,7 @@
 .service__content::after {
     position: absolute;
     display: inline-block;
-    content: url('/images/service/youtube.svg');
+    content: url('./images/service/youtube.svg');
     left: 100%;
     top: 100%;
     transform: translate(-50%);
@@ -82,7 +82,7 @@
 .service__content::before {
     position: absolute;
     display: inline-block;
-    content: url('/images/service/likes.svg');
+    content: url('./images/service/likes.svg');
     left: 49%;
     top: 64%;
     transform: translate(-50%);
@@ -111,7 +111,7 @@
 .complete__list-item::after {
     position: absolute;
     display: inline-block;
-    content: url('/images/service/Mark.svg');
+    content: url('./images/service/Mark.svg');
     left: -20px;
     top: 5%;
     transform: translate(-50%);
