@@ -454,7 +454,7 @@ body {
 .service__inner::before {
   position: absolute;
   display: block;
-  content: url("./images/service/bg-shape.svg");
+  content: url("/images/service/bg-shape.svg");
   top: 241.1px;
   right: -76px;
 }
@@ -476,7 +476,7 @@ body {
 .service__title::after {
   position: absolute;
   display: block;
-  content: url("./images/service/like-2.svg");
+  content: url("/images/service/like-2.svg");
   top: 1120%;
   left: 60%;
 }
@@ -528,7 +528,7 @@ body {
 .service__content::after {
   position: absolute;
   display: inline-block;
-  content: url("./images/service/youtube.svg");
+  content: url("/images/service/youtube.svg");
   left: 100%;
   top: 100%;
   -webkit-transform: translate(-50%);
@@ -538,8 +538,8 @@ body {
 
 .service__content::before {
   position: absolute;
-  display: inline-block;
-  content: url("./images/service/likes.svg");
+  display: block;
+  content: url("/images/service/likes.svg");
   left: 49%;
   top: 64%;
   -webkit-transform: translate(-50%);
@@ -554,6 +554,18 @@ body {
   color: #1E212C;
   max-width: 390px;
   margin-bottom: 24px;
+  position: relative;
+}
+
+.service__subtitle::after {
+  position: absolute;
+  display: block;
+  content: url("/images/service/followers.svg");
+  left: 280%;
+  top: 70%;
+  -webkit-transform: translate(-50%);
+      -ms-transform: translate(-50%);
+          transform: translate(-50%);
 }
 
 .complete__list {
@@ -565,17 +577,6 @@ body {
   margin: 0 0 12px 30px;
   color: #424551;
   line-height: 1.6;
-}
-
-.complete__list-item::after {
-  position: absolute;
-  display: inline-block;
-  content: url("./images/service/Mark.svg");
-  left: -20px;
-  top: 5%;
-  -webkit-transform: translate(-50%);
-      -ms-transform: translate(-50%);
-          transform: translate(-50%);
 }
 
 .service__btn-box {
@@ -840,7 +841,7 @@ body {
 
 .questions__inner::after {
   display: block;
-  content: url("../images/questions.svg");
+  content: url("/images/questions.svg");
 }
 
 .questions__block {

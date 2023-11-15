@@ -17,7 +17,7 @@
 .service__inner::after {
     position: absolute;
     display: block;
-    content: url('/images/service/followers.svg');
+    content: url('./images/service/followers.svg');
     top: 241.1px;
     right: -76px;
 }
@@ -81,7 +81,7 @@
 
 .service__content::before {
     position: absolute;
-    display: inline-block;
+    display: block;
     content: url('/images/service/likes.svg');
     left: 49%;
     top: 64%;
@@ -95,6 +95,16 @@
     color: #1E212C;
     max-width: 390px;
     margin-bottom: 24px;
+    position: relative;
+}
+
+.service__subtitle::after {
+    position: absolute;
+    display: block;
+    content: url('/images/service/followers.svg');
+    left: 280%;
+    top: 70%;
+    transform: translate(-50%);
 }
 
 .complete__list {
@@ -106,15 +116,6 @@
     margin: 0 0 12px 30px;
     color: #424551;
     line-height: 1.6;
-}
-
-.complete__list-item::after {
-    position: absolute;
-    display: inline-block;
-    content: url('/images/service/Mark.svg');
-    left: -20px;
-    top: 5%;
-    transform: translate(-50%);
 }
 
 .service__btn-box {
