@@ -8,7 +8,67 @@
 .case__title {
     @extend %title;
     margin-bottom: 60px;
+    position: relative;
 }
+
+.case__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.case__btn-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 24px;
+
+}
+
+.case__btn-image-2 {
+    transition: all .4s;
+}
+
+.case__btn-image-2 svg {
+    transition: all .4s;
+    border-radius: 50%;
+}
+
+.case__btn-image-2:hover svg {
+    box-shadow: 0px 0px 0px 16px #7772F1;
+    background-color: #7772F1;
+    border-radius: 100%;
+}
+
+
+
+
+// .case__title::before {
+//     display: block;
+//     content: url('/images/case/Left.svg');
+//     position: absolute;
+//     left: 95%;
+//     top: 0;
+//     width: 24px;
+//     height: 24px;
+// }
+
+// .case__title::after {
+//     display: block;
+//     content: url('/images/case/Right.svg');
+//     position: absolute;
+//     left: 99%;
+//     top: 0;
+//     width: 24px;
+//     height: 24px;
+// }
+
+// .case__title:hover::after {
+
+//     box-shadow: 0 0 0 16px #7772F1;
+//     top: 20px;
+
+// }
 
 .case__card-block {
     display: flex;
@@ -50,6 +110,34 @@
     font-size: 16px;
 }
 
+.case__circle-inner {
+    display: flex;
+    align-items: center;
+    margin-top: 75px;
+}
+
+.case__circle-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 66px;
+    font-size: 12px;
+    margin-right: 32px;
+}
+
+.case__circle-content span {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.case__circle {
+    display: flex;
+}
+
+.case__circle-imamge {
+    margin-right: 12px;
+}
+
 .case__card-inner {
     display: flex;
 }
@@ -57,6 +145,37 @@
 .case__card-block-2 {
     width: 390px;
     height: 390px;
+    position: relative;
+}
+
+.case__circle-inner2 {}
+
+.case__circle2 {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+}
+
+.case__circle-imamge2 {
+    padding: 0px 0px 44px 40px;
+    margin-right: 12px;
+}
+
+.case__circle-content2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 12px;
+    color: #fff;
+    max-width: 84px;
+    margin-right: 32px;
+}
+
+.case__circle-content2 span {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
 }
 
 .case__content-2 {
@@ -96,4 +215,85 @@
     mix-blend-mode: screen;
     background: linear-gradient(270deg, rgba(218, 219, 221, 0.00) 0%, rgba(218, 219, 221, 0.50) 12.33%, #DADBDD 51.91%, rgba(218, 219, 221, 0.50) 87.85%, rgba(218, 219, 221, 0.00) 100%);
     opacity: 0.4;
+}
+
+.case__bottom {
+    margin-top: 65px;
+    display: flex;
+    justify-content: center;
+}
+
+.case__subtitle {
+    color: #1E212C;
+    line-height: 1.5;
+    font-weight: 700;
+    font-size: 28px;
+    margin-right: 40px;
+}
+
+.case__btn {
+    display: flex;
+    height: 52px;
+    align-items: center;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    color: #fff;
+    padding: 0px 40px;
+    background: #7772F1;
+    border-radius: 4px;
+    line-height: 52px
+}
+
+.case__card-block-3 {
+    width: 390px;
+    height: 390px;
+    background: #fff;
+    margin-left: 31px;
+}
+
+.case__circle-inner3 {
+    padding: 250px 0px 0px 45px;
+}
+
+.case__circle3 {
+    display: flex;
+}
+
+.case__circle-imamge3 {
+    margin-right: 12px;
+}
+
+.case__circle-content3 {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    margin-right: 42px;
+    max-width: 81px;
+}
+
+.case__circle-content3 span {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.case__content-3 {
+    position: relative;
+}
+
+.case__line-3 {
+    position: absolute;
+    top: 128px;
+    display: flex;
+    align-items: center;
+    width: 390px;
+    height: 1px;
+    background: linear-gradient(270deg, rgba(218, 219, 221, 0.00) 0%, rgba(218, 219, 221, 0.50) 12.33%, #DADBDD 51.91%, rgba(218, 219, 221, 0.50) 87.85%, rgba(218, 219, 221, 0.00) 100%);
+}
+
+.case__image-3 {
+    margin: 20px 0 0 30px;
 }

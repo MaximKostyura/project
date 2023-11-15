@@ -59,3 +59,25 @@ function getSVG(type) {
         `;
     }
 }
+
+// Находим элементы кнопки, чекбокса и псевдоэлемента
+const switchButton = document.querySelector('.switch-button');
+const switchCheckbox = document.querySelector('.switch-button-checkbox');
+const switchLabelSpan = document.querySelector('.switch-button-label-span');
+const switchLabelBefore = document.querySelector('.switch-button-label:before');
+
+// Добавляем слушатель события изменения состояния чекбокса
+switchCheckbox.addEventListener('change', function() {
+    // Если чекбокс активирован
+    if (this.checked) {
+        // Устанавливаем цвет текста в активном состоянии кнопки
+        switchLabelSpan.style.color = '#155FFF';
+        // Устанавливаем цвет текста псевдоэлемента в активном состоянии кнопки
+        switchLabelBefore.style.color = '#155FFF';
+    } else {
+        // В противном случае устанавливаем цвет текста в неактивном состоянии кнопки
+        switchLabelSpan.style.color = '#fff';
+        // Устанавливаем цвет текста псевдоэлемента в неактивном состоянии кнопки
+        switchLabelBefore.style.color = '#fff';
+    }
+});
