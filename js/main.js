@@ -70,3 +70,22 @@ function rightClick() {
     btn.style.left = '168px';
     btn.classList.remove('active');
 }
+
+
+$(function () {
+    $('.testimonials__slider').slick({
+        arrows: false,
+    })
+    $('.testimonials__perv').on('click', function (e) {
+        e.preventDefault()
+        $('.testimonials__slider').slick('slickPrev')
+    })
+    $('.testimonials__next').on('click', function (e) {
+        e.preventDefault()
+        $('.testimonials__slider').slick('slickNext')
+
+    })
+})
+
+
+

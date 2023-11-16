@@ -1,3 +1,7 @@
+.plans {
+    padding-bottom: 180px;
+}
+
 .button-box {
     width: 390px;
     margin: 35px auto;
@@ -35,6 +39,7 @@
     color: #7772F1;
     z-index: 2;
 }
+
 
 #btn {
     left: 0;
@@ -74,3 +79,250 @@
     flex-direction: column;
     align-items: center;
 }
+
+.plans__card-inner {
+    display: flex;
+    gap: 30px;
+}
+
+.plans__card-box {
+    width: 390px;
+    height: 536px;
+    border: 1px solid rgba(119, 114, 241, 0.40);
+    background: #fff;
+}
+
+.plans__content {
+    margin-top: 40px;
+}
+
+.plans__title-list {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.plans__accent-text {
+    font-family: Lato;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 130%;
+    /* 59.8px */
+    color: #7772F1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.plans__accent-text span {
+    align-self: flex-start;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    /* 30px */
+    color: #7772F1;
+}
+
+.line {
+    background: linear-gradient(270deg, rgba(218, 219, 221, 0.00) 0%, rgba(218, 219, 221, 0.50) 12.33%, #DADBDD 51.91%, rgba(218, 219, 221, 0.50) 87.85%, rgba(218, 219, 221, 0.00) 100%);
+    width: 390px;
+    height: 1px;
+    margin: 16px 0 24px;
+    box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 80px 80px -20px rgba(154, 156, 165, 0.08);
+}
+
+.plans__list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0 0 60px 30px;
+}
+
+.plans__list-item {
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 25.6px */
+    color: #1E212C;
+    margin-bottom: 8px;
+    padding-left: 25%;
+    position: relative;
+}
+
+
+.plans__list-item svg {
+    position: absolute;
+    top: 50%;
+    left: 63px;
+    transform: translate(0, -50%)
+}
+
+.plans__btn {
+    margin: 31px 33px 0px -7px;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0.5px;
+    padding: 0px 32px;
+    border: 1px solid #7772F1;
+    border-radius: 4px;
+    color: #7772F1;
+}
+
+
+.plans__card-box2 {
+    width: 390px;
+    height: 536px;
+    background: #1E212C;
+    border: 1px solid #03CEA4;
+    box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.05), 0px 12px 10px -6px rgba(30, 33, 44, 0.08), 0px 26px 24px -10px rgba(30, 33, 44, 0.10), 0px 60px 80px -20px rgba(30, 33, 44, 0.16);
+}
+
+.plans__content2 {
+    color: #03CEA4;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    padding: 90px 127px 46px 216px;
+}
+
+
+.line2 {
+    background: linear-gradient(270deg, rgba(218, 219, 221, 0.00) 0%, rgba(218, 219, 221, 0.50) 12.33%, #DADBDD 51.91%, rgba(218, 219, 221, 0.50) 87.85%, rgba(218, 219, 221, 0.00) 100%);
+    width: 390px;
+    height: 1px;
+    margin-bottom: 24px;
+}
+
+.plans__list2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0 0 60px 30px;
+}
+
+.plans__list-item2 {
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 25.6px */
+    color: #ffffff;
+    margin-bottom: 8px;
+    padding-left: 25%;
+    position: relative;
+}
+
+.plans__list-item2 svg {
+    position: absolute;
+    top: 50%;
+    left: 63px;
+    transform: translate(0, -50%)
+}
+
+.plans__list-item2 span {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #9A9CA5;
+}
+
+.plans__btn2 {
+    margin: 31px 33px 0px -7px;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0.5px;
+    padding: 0px 32px;
+    border: 1px solid #7772F1;
+    border-radius: 4px;
+    color: #fff;
+    background: #7772F1;
+}
+
+.plans__card-box3 {
+    width: 390px;
+    height: 536px;
+    background: #ffffff;
+    border: 1px solid rgba(119, 114, 241, 0.40);
+    box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 80px 80px -20px rgba(154, 156, 165, 0.08);
+}
+
+.plans__content3 {
+    color: #7772F1;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    padding: 90px 127px 46px 216px;
+}
+
+.plans__accent-text3 {}
+
+.line3 {}
+
+.plans__list3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0 0 60px 30px;
+}
+
+.plans__list-item3 {
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 25.6px */
+    color: #1E212C;
+    margin-bottom: 8px;
+    padding-left: 25%;
+    position: relative;
+}
+
+
+.plans__list-item3 svg {
+    position: absolute;
+    top: 50%;
+    left: 63px;
+    transform: translate(0, -50%)
+}
+
+.plans__btn3 {
+    margin: 31px 33px 0px -7px;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0.5px;
+    padding: 0px 32px;
+    border: 1px solid #7772F1;
+    border-radius: 4px;
+    color: #7772F1;
+    background: #ffffff;
+}
+

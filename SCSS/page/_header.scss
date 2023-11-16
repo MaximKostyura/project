@@ -37,8 +37,7 @@
     opacity: 0.4;
 }
 
-.header__nav-link:hover {
-}
+.header__nav-link:hover {}
 
 .button {
     @extend %button;
@@ -114,12 +113,29 @@
     padding: 120px 0 80px;
 }
 
+
 .seo__item {
     display: flex;
     align-items: center;
     color: $global-color;
     font-size: 20px;
     font-weight: 700;
+    position: relative;
+}
+
+.seo__item::before {
+    display: block;
+    content: "";
+    position: absolute;
+    opacity: 0.4;
+    background: linear-gradient(270deg, rgba(218, 219, 221, 0.00) 0%, rgba(218, 219, 221, 0.50) 12.33%, #DADBDD 51.91%, rgba(218, 219, 221, 0.50) 87.85%, rgba(218, 219, 221, 0.00) 100%);
+    width: 1px;
+    left: -33%;
+    height: 40px;
+}
+
+.seo__item:first-child::before {
+    opacity: 0;
 }
 
 .seo__item img {
