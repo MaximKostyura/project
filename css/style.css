@@ -1721,7 +1721,7 @@ body {
 
 .testimonials::before {
   display: block;
-  content: url("/images/testimonials/Vector.svg");
+  content: url("./images/testimonials/Vector.svg");
   position: absolute;
   z-index: -1;
   top: 52px;
@@ -1750,7 +1750,7 @@ body {
 .testimonials__slider::before {
   display: block;
   position: absolute;
-  content: url("/images/testimonials/braces.svg");
+  content: url("./images/testimonials/braces.svg");
   top: 15%;
   right: 83%;
 }
