@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .main {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
@@ -476,7 +477,7 @@ body {
 .service__title::after {
   position: absolute;
   display: block;
-  content: url("/images/service/like-2.svg");
+  content: url("../images/service/like-2.svg");
   top: 1120%;
   left: 60%;
 }
@@ -528,7 +529,7 @@ body {
 .service__content::after {
   position: absolute;
   display: inline-block;
-  content: url("/images/service/youtube.svg");
+  content: url("../images/service/youtube.svg");
   left: 100%;
   top: 100%;
   -webkit-transform: translate(-50%);
@@ -539,7 +540,7 @@ body {
 .service__content::before {
   position: absolute;
   display: block;
-  content: url("/images/service/likes.svg");
+  content: url("../images/service/likes.svg");
   left: 49%;
   top: 64%;
   -webkit-transform: translate(-50%);
@@ -560,7 +561,7 @@ body {
 .service__subtitle::after {
   position: absolute;
   display: block;
-  content: url("/images/service/followers.svg");
+  content: url("../images/service/followers.svg");
   left: 280%;
   top: 70%;
   -webkit-transform: translate(-50%);
@@ -1249,7 +1250,7 @@ body {
 
 .benefits__card-list::before {
   display: block;
-  content: url(images/benefits/illustration.svg);
+  content: url("../images/benefits/illustration.svg");
   position: absolute;
   top: 15%;
 }
@@ -1314,99 +1315,63 @@ body {
   line-height: 1.5;
 }
 
-.switch-button {
-  background: rgba(0, 0, 0, 0.0901960784);
-  border-radius: 30px;
-  overflow: hidden;
+.button-box {
   width: 390px;
-  text-align: center;
-  font-size: 18px;
-  letter-spacing: 1px;
-  color: rgba(253, 253, 253, 0.9294117647);
+  margin: 35px auto;
   position: relative;
-  padding-right: 180px;
-  position: relative;
-  border: 1px solid #155FFF;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 160%;
-  /* 25.6px */
+  border-radius: 30px;
+  background: #fff;
+  border: 1px solid #7772F1;
 }
-.switch-button:before {
-  content: "Yearly -12% Off";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  width: 200px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  z-index: 3;
-  pointer-events: none;
-}
-.switch-button-checkbox {
+
+.toggle-btn {
+  padding: 18px 60px;
   cursor: pointer;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+  text-align: center;
+  color: #fff;
   z-index: 2;
 }
-.switch-button-checkbox:checked + .switch-button-label:before {
-  -webkit-transform: translateX(180px);
-      -ms-transform: translateX(180px);
-          transform: translateX(180px);
-  -webkit-transition: -webkit-transform 300ms linear;
-  transition: -webkit-transform 300ms linear;
-  transition: transform 300ms linear;
-  transition: transform 300ms linear, -webkit-transform 300ms linear;
+
+.toggle-btn:active {
+  color: #7772F1;
 }
-.switch-button-checkbox + .switch-button-label {
+
+.toggle-btn2 {
+  padding: 18px 60px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
   position: relative;
-  padding: 15px 0;
-  display: block;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-  pointer-events: none;
+  text-align: center;
+  color: #7772F1;
+  z-index: 2;
 }
-.switch-button-checkbox + .switch-button-label:before {
-  content: "";
-  background: #7772F1;
-  height: 100%;
-  width: 100%;
-  position: absolute;
+
+#btn {
   left: 0;
   top: 0;
+  position: absolute;
+  width: 220px;
+  height: 100%;
+  background: #7772F1;
   border-radius: 30px;
-  -webkit-transform: translateX(0);
-      -ms-transform: translateX(0);
-          transform: translateX(0);
-  -webkit-transition: -webkit-transform 300ms;
-  transition: -webkit-transform 300ms;
-  transition: transform 300ms;
-  transition: transform 300ms, -webkit-transform 300ms;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
-.switch-button-checkbox + .switch-button-label .switch-button-label-span {
-  position: relative;
-}
-.switch-button-checkbox + .switch-button-label .switch-button-label-span {
-  position: relative;
-}
-.switch-button-checkbox + .switch-button-label .switch-button.active .switch-button-label:before {
+
+#btn.active {
+  background: #7772F1;
   color: #fff;
+}
+
+#btn.active .toggle-btn {
+  color: #fff;
+  /* Добавлено правило для цвета текста при активном состоянии */
 }
 
 .plans__title {

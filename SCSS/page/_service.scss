@@ -32,7 +32,7 @@
 .service__title::after {
     position: absolute;
     display: block;
-    content: url('/images/service/like-2.svg');
+    content: url('../images/service/like-2.svg');
     top: 1120%;
     left: 60%;
 }
@@ -73,7 +73,7 @@
 .service__content::after {
     position: absolute;
     display: inline-block;
-    content: url('/images/service/youtube.svg');
+    content: url('../images/service/youtube.svg');
     left: 100%;
     top: 100%;
     transform: translate(-50%);
@@ -82,7 +82,7 @@
 .service__content::before {
     position: absolute;
     display: block;
-    content: url('/images/service/likes.svg');
+    content: url('../images/service/likes.svg');
     left: 49%;
     top: 64%;
     transform: translate(-50%);
@@ -101,7 +101,7 @@
 .service__subtitle::after {
     position: absolute;
     display: block;
-    content: url('/images/service/followers.svg');
+    content: url('../images/service/followers.svg');
     left: 280%;
     top: 70%;
     transform: translate(-50%);

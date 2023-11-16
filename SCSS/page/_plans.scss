@@ -1,92 +1,60 @@
-.switch-button {
-    background: #00000017;
-    border-radius: 30px;
-    overflow: hidden;
+.button-box {
     width: 390px;
+    margin: 35px auto;
+    position: relative;
+    border-radius: 30px;
+    background: #fff;
+    border: 1px solid #7772F1;
+
+}
+
+.toggle-btn {
+    padding: 18px 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
     text-align: center;
-    font-size: 18px;
-    letter-spacing: 1px;
-    color: #fdfdfded;
+    color: #fff;
+    z-index: 2;
+}
+
+.toggle-btn:active {
+    color: #7772F1;
+}
+
+.toggle-btn2 {
+    padding: 18px 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
     position: relative;
-    padding-right: 180px;
-    position: relative;
-    border: 1px solid #155FFF;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 160%;
-    /* 25.6px */
+    text-align: center;
+    color: #7772F1;
+    z-index: 2;
+}
 
-    &:before {
-        content: "Yearly -12% Off";
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        width: 200px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        z-index: 3;
-        pointer-events: none;
-    }
+#btn {
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 220px;
+    height: 100%;
+    background: #7772F1;
+    border-radius: 30px;
+    transition: .5s;
+}
 
-    &-checkbox {
-        cursor: pointer;
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        height: 100%;
-        opacity: 0;
-        z-index: 2;
+#btn.active {
+    background: #7772F1;
+    color: #fff;
+}
 
-        &:checked+.switch-button-label:before {
-            transform: translateX(180px);
-            transition: transform 300ms linear;
-        }
-
-        &+.switch-button-label {
-            position: relative;
-            padding: 15px 0;
-            display: block;
-            user-select: none;
-            pointer-events: none;
-
-            &:before {
-                content: "";
-                background: #7772F1;
-                height: 100%;
-                width: 100%;
-                position: absolute;
-                left: 0;
-                top: 0;
-                border-radius: 30px;
-                transform: translateX(0);
-                transition: transform 300ms;
-
-            }
-
-            .switch-button-label-span {
-                position: relative;
-
-            }
-
-            .switch-button-label-span {
-                position: relative;
-
-            }
-
-
-            .switch-button.active .switch-button-label:before {
-                color: #fff;
-            }
-
-
-
-        }
-    }
+#btn.active .toggle-btn {
+    color: #fff;
+    /* Добавлено правило для цвета текста при активном состоянии */
 }
 
 .plans__title {
