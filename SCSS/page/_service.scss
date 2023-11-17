@@ -70,6 +70,7 @@
     position: relative;
 }
 
+
 .service__content::after {
     position: absolute;
     display: inline-block;
@@ -113,9 +114,14 @@
 
 .complete__list-item {
     position: relative;
-    margin: 0 0 12px 30px;
+    margin: 0 0px 12px 0px;
     color: #424551;
     line-height: 1.6;
+}
+
+.complete__list-item svg {
+    transform: translateY(15%);
+    margin-right: 12px;
 }
 
 .service__btn-box {
