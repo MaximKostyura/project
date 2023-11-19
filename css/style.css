@@ -129,7 +129,7 @@ body {
 }
 
 .header::before {
-  content: url("./images/icons/shape-header.svg");
+  content: url("images/icons/shape-header.svg");
   display: block;
   position: absolute;
   right: 0%;
@@ -137,7 +137,7 @@ body {
 }
 
 .header::after {
-  content: url("./images/icons/lines.svg");
+  content: url("images/icons/lines.svg");
   position: absolute;
   left: 0%;
   top: 10%;
@@ -148,7 +148,7 @@ body {
 }
 
 .header__top::before {
-  content: url("./images/icons/lines-2.svg");
+  content: url("images/icons/lines-2.svg");
   position: absolute;
   left: 12%;
   top: 25%;
