@@ -15,19 +15,19 @@
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+
 }
 
-.case__btn-box {
+
+.case__card-inner {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 24px;
-
+    flex-direction: column;
 }
 
-.case__btn-image-2 {
-    transition: all .4s;
+.slick-slide img {
+    width: none;
 }
+
 
 .case__btn-image-2 svg {
     transition: all .4s;
@@ -146,6 +146,7 @@
     width: 390px;
     height: 390px;
     position: relative;
+    margin-right: 30px;
 }
 
 .case__circle-inner2 {}
@@ -218,9 +219,61 @@
 }
 
 .case__bottom {
-    margin-top: 65px;
     display: flex;
     justify-content: center;
+    margin-top: 65px;
+}
+
+.gallery__nav {
+    display: flex;
+    align-content: space-around;
+    align-items: baseline;
+    gap: 12px;
+}
+
+.case__arrow {
+    top: 50%;
+    transform: translateY(-50%);
+    transform: translateX(490px);
+
+}
+
+.case__arrow:hover path {
+    fill: #fff;
+}
+
+.case__btn:hover {
+    background: #504AED;
+    
+}
+
+.case__perv:hover {
+    background: #7772F1;
+    box-shadow: 0 0 0 16px #7772F1;
+    border-radius: 100%;
+    fill: white;
+}
+
+.case__next:hover {
+    background: #7772F1;
+    box-shadow: 0 0 0 16px #7772F1;
+    border-radius: 100%;
+    fill: white;
+
+}
+
+
+
+.case__perv {
+    transition: all .5s;
+}
+
+.case__next {
+    background: #7772F1;
+    border-radius: 100%;
+    color: #fff;
+    margin-right: 12px;
+    transition: all .5s;
 }
 
 .case__subtitle {
@@ -242,22 +295,31 @@
     padding: 0px 40px;
     background: #7772F1;
     border-radius: 4px;
-    line-height: 52px
+    line-height: 52px;
+    transition: all .5s;
 }
 
 .case__card-block-3 {
     width: 390px;
     height: 390px;
     background: #fff;
-    margin-left: 31px;
+    margin-right: 31px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
+
+
 
 .case__circle-inner3 {
     padding: 250px 0px 0px 45px;
 }
 
+
 .case__circle3 {
     display: flex;
+    transform: translateY(-26px);
 }
 
 .case__circle-imamge3 {

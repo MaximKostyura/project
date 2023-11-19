@@ -16,3 +16,12 @@
 @import "page/news";
 @import "page/footer";
 @import "page/media";
+
+.swiper {
+    width: 1200px;
+    height: 390px;
+}
+
+html, body {
+    scroll-behavior: smooth;
+}

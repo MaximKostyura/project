@@ -1,9 +1,32 @@
 .header {
     background: radial-gradient(175.37% 96.44% at 10% 13.52%, #1E212C 0%, #232441 56.38%, #1E212C 100%);
+    position: relative;
+}
+
+.header::before {
+    content: url('/images/icons/shape-header.svg');
+    display: block;
+    position: absolute;
+    right: 0%;
+    top: 10%;
+}
+
+.header::after {
+    content: url('/images/icons/lines.svg');
+    position: absolute;
+    left: 0%;
+    top: 10%;
 }
 
 .header__top {
     padding-top: 20px;
+}
+
+.header__top::before {
+    content: url('/images/icons/lines-2.svg');
+    position: absolute;
+    left: 12%;
+    top: 25%;
 }
 
 .header__top-inner {
@@ -29,19 +52,27 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 4;
 }
 
 .header__nav-link {
     margin-right: 40px;
     color: $global-color;
     opacity: 0.4;
+    z-index: 5;
+    transition: all .5s;
 }
 
-.header__nav-link:hover {}
+.header__nav-link:hover {
+    color: #504AED
+}
 
 .button {
     @extend %button;
+    transition: all .5s;
+}
+
+.button:hover {
+    background: #504AED;
 }
 
 .header__body {
@@ -87,6 +118,12 @@
 .header__button {
     @extend %button-body;
     margin-right: 40px;
+    transition: all .5s;
+}
+
+.header__button:hover {
+    background: #0a0f84;
+    color: #ffffff;
 }
 
 
