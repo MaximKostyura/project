@@ -309,6 +309,12 @@
     transition: all .5s;
 }
 
+.case__btn:hover {
+    background: #fff;
+    color: #7772F1;
+    box-shadow: 1px 1px 1px 1px #7772F1;
+}
+
 .case__card-block-3 {
     width: 390px;
     height: 390px;

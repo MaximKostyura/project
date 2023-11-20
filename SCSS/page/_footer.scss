@@ -37,7 +37,15 @@
 }
 
 
-.footer__socials-item {}
+.footer__socials-item img {
+transition: all .5s;
+}
+
+.footer__socials-item:hover img {
+    border-radius: 100%;
+    box-shadow: 0 0 0 16px rgb(119, 115, 242);
+    background: #7772F1;
+}
 
 .footer__socials-link img {
     transition: all .5s;

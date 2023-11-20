@@ -314,7 +314,7 @@
     margin: 60px auto;
     border: 1px solid #7772F1;
     border-radius: 40px;
-    max-width: 386px;
+    max-width: 377px;
     flex-wrap: nowrap;
 }
 
@@ -327,7 +327,7 @@ input[type=radio].toggle {
 
 input[type=radio].toggle+label {
     cursor: pointer;
-    min-width: 195px;
+    min-width: 0px;
     color: #7772F1;
 }
 

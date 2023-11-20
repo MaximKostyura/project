@@ -83,7 +83,13 @@
 }
 
 .questions__btn:hover {
-    color: #1E212C;
+    color: #7772F1;
+    background: #ffffff;
+    box-shadow: 1px 1px 1px 1px #7772F1;
+}
+
+.questions__btn:hover svg {
+    box-shadow: 1px 1px 1px 1px #7772F1;
 }
 
 .questions__btn-icon {
