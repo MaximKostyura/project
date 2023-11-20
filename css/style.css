@@ -3406,7 +3406,7 @@ input[type=radio].toggle:checked + label:after {
     font-size: 3vh;
   }
   .service__btn {
-    padding: 0px 20px;
+    padding: 0px 9px;
   }
   .service__btn--white {
     padding: 0 20px;
