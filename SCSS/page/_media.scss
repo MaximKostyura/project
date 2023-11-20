@@ -24,7 +24,7 @@
     .header::after {
         display: none;
     }
-    
+
 }
 
 @media (max-width: 1100px) {
@@ -363,6 +363,61 @@
     .footer__top-inner {
         grid-template-columns: 3fr 2fr 2fr;
     }
+
+    .body--opened-menu .header__top-logo {
+        transform: scale(0.7);
+    }
+
+    .body--opened-menu .burger-icon {
+        transform: scale(0.7);
+    }
+
+    .body--opened-menu .button {
+        transform: scale(0.9);
+    }
+
+    .header__top-inner {
+        margin-bottom: 100px;
+    }
+
+    .createx {
+        padding: 60px 0px 100px;
+    }
+
+    .agency__inner {
+        padding-bottom: 100px;
+    }
+
+    .eclipse {
+        padding-bottom: 100px;
+    }
+
+    .service__content {
+        padding-top: 30px;
+    }
+
+    .service {
+        padding-bottom: 60px;
+    }
+
+    .analys__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .analys__input-small {
+        max-width: none;
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .questions {
+        padding: 100px 0 60px;
+    }
+
+   
 }
 
 @media (max-width: 700px) {
@@ -583,6 +638,14 @@
     .new__card-image2 img {
         width: 80%;
     }
+
+    .button {
+        display: none;
+    }
+
+    .case__title {
+        text-align: center;
+    }
 }
 
 @media (max-width: 328px) {
@@ -800,6 +863,10 @@
         display: inline-block;
         overflow: hidden;
         transform: scale(1);
+    }
+
+    .button {
+        display: none;
     }
 
 }
